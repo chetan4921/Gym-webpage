@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clubs fitness</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+</head>
+<style>
+    .left div{
+        text-align: center;
+        line-height: 16px;
+        font-size: 16px;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: url('gym.1.jpg');
+        background-size: cover;
+        color: white;
+        background-repeat: no-repeat;
+        font-family: "Audiowide", sans-serif;
+    }
+    .left{
+        display: inline-block;
+        /* border: 2px solid red; */
+        top: 0px;
+        left:42px;
+        position: absolute;
+        top: -9px;
+        padding: 10px;
+    }
+    .mid{
+        display: block;
+        width: 40%;
+        margin: 25px auto;
+        /* border: 2px solid green; */
+        top: 20px;
+    }
+    .right{
+        position: absolute;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+        top: 30px;
+        right:34px;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 18px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: blueviolet;
+    }
+
+    .left img{
+        width: 60px;
+    }
+    .btn{
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        /* font-size: 20px; */
+        cursor: pointer;
+        font-family: "Audiowide", sans-serif;
+    }
+    .btn:hover{
+        background-color: rgb(89, 83, 83);
+    }
+    .container{
+        border: 2px solid white;
+        /* top: 165px; */
+        /* position: absolute; */
+        margin: 220px 72px;
+        padding: 50px 86px;
+        width: 28%;
+        border-radius: 15px;
+    }
+    .formgroup input{
+        text-align: center;
+        display: block;
+        width: 290px;
+        padding: 0px;
+        border: 2px solid black;
+        margin: 3px auto;
+        font-size: 16px;
+        border-radius: 9px;
+        font-family: "Audiowide", sans-serif;
+    }
+    .container h3{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        margin: auto;
+    }
+    .boxer{
+        text-align: center;
+        /* border: 2px solid green; */
+        position: absolute;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+        top: 175px;
+        right: 125px;;
+        padding: 260px;
+        /* margin: 100px; */
+        /* bottom: 500px; */
+    }
+    .boxer h3{
+        position: absolute;
+        top: -10px;
+        left: 104px;
+    }
+
+    .boxer p{
+        position: absolute;
+        top: 71px;
+        left: 2px;
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+            <img src="logo.jpg" alt="">
+            <div>
+                gym
+            </div>
+        </div>
+        <!-- mid for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">fitness calci</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+        <!-- right for button -->
+        <div class="right">
+            <button class="btn">call us now</button><button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>
+            join the best gym of pune now
+        </h3>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" class="text" placeholder="enter your name">
+                
+            </div>
+            <div class="formgroup">
+                <input type="text" class="text" placeholder="enter your age">
+                
+            </div>
+            <div class="formgroup">
+                <input type="text" class="text" placeholder="enter your gender">
+                
+            </div>
+            <div class="formgroup">
+                <input type="text" class="text" placeholder="enter your address">
+                
+            </div>
+            <div class="formgroup">
+                <input type="text" class="text" placeholder="enter your phone.no">
+                
+            </div>
+            <button class="btn">submit</button>
+        </form>
+        
+    </div>
+    <div class="boxer">
+        <h3>
+            IMPORTANCE OF GYM IN LIFE
+        </h3>
+        <p>
+            The age old saying that a healthy mind lives in a healthy body is extremely crucial for us today. The rat race to be successful and hectic routine of people have degraded their fitness. From the school time, a person is taught about the significance of physical fitness. If our body is not fit and the mind is fragile then our academic performance gets affected. Although, it is necessary to consume a healthy diet but it is equally vital to release sweat through our body via physical workout. Today, people are able to take time out for playing virtual games on their smartphones but when it comes to burning the bulky food consumed, they give many excuses   for not being able to indulge in physical exercise. This tendency of staying away from basic fitness  can lead us to disastrous consequences. Nowadays, youngsters are suffering from cardiovascular diseases which itself is an indication that the care of body has been compromised by them
+        </p>
+    </div>
+</body>
+</html>
